@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    /* background: radial-gradient(circle, #17122b, #080808); */
+    background:
+        radial-gradient(circle at 40% 0%, #068ce930 0%, black 75%),
+        radial-gradient(circle at 60% 0%, #f97316f5 0%, black 75%),
+        #17122b;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
