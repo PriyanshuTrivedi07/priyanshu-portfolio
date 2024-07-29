@@ -5,7 +5,7 @@ import codingImage from '../../assets/about.svg';
 // import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaGithub, FaNode, FaJava , FaBootstrap } from 'react-icons/fa';
 // import { VscVscode } from "react-icons/vsc";
 // import { SiTailwindcss, SiCplusplus, SiC, SiAppwrite, SiRedux } from 'react-icons/si';
-
+import { Helmet } from 'react-helmet';
 
 const About = () => {
   const skills = [
@@ -41,6 +41,25 @@ const About = () => {
 
   return (
     <div className='text-white py-8 my-8'>
+
+      <Helmet>
+        <title>About Me | Priyanshu Trivedi</title>
+        <meta name="description" content="Learn more about me, my skills, and view my GitHub contribution graph. I'm Priyanshu Trivedi, a front-end developer with expertise handson experience in React and modern web technologies." />
+        <meta name="keywords" content="about me, front-end developer, React, JavaScript, skills, GitHub contributions, priyanshu trivedi, priyanshutrivedi, priyanshutrivedi.vercel.app priyanshu-portfolio" />
+
+        <meta property="og:title" content="About Me | Priyanshu Trivedi" />
+        <meta property="og:description" content="Learn more about me, my skills, and view my GitHub contribution graph. I'm Priyanshu Trivedi, a front-end developer with expertise handson experience in React and modern web technologies." />
+        <meta property="og:image" content="https://priyanshutrivedi.vercel.app/assets/about-CVj-9Jni.svg" />
+        <meta property="og:url" content="https://priyanshutrivedi.vercel.app/about" />
+
+        <meta name="twitter:title" content="About Me | Priyanshu Trivedi" />
+        <meta name="twitter:description" content="Learn more about me, my skills, and view my GitHub contribution graph. I'm Priyanshu Trivedi, a front-end developer with expertise handson experience in React and modern web technologies." />
+        <meta name="twitter:image" content="https://priyanshutrivedi.vercel.app/assets/about-CVj-9Jni.svg" />
+
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://priyanshutrivedi.vercel.app/about" />
+      </Helmet>
+
       <Container>
         {/* About Me Section */}
         <section className="mb-8 flex flex-col md:flex-row gap-4 py-8">

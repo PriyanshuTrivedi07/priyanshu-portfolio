@@ -5,7 +5,7 @@ import todogenieImg from "../../assets/todogenieSS.png"
 import newssyncImg from "../../assets/newssync.png"
 import miniJsImg from "../../assets/miniSS.png"
 import cwhImg from "../../assets/cwhSS.png"
-
+import { Helmet } from 'react-helmet';
 
 const Projects = () => {
 
@@ -52,6 +52,25 @@ const Projects = () => {
 
   return (
     <div className="py-8 my-8">
+
+      <Helmet>
+        <title>Projects | Priyanshu Trivedi</title>
+        <meta name="description" content="Explore my recent projects and see what I've been working on. As a front-end developer, I showcase my latest work and share details about each project." />
+        <meta name="keywords" content="projects, front-end developer, React, JavaScript, web development, priyanshu trivedi, priyanshutrivedi, priyanshutrivedi.vercel.app priyanshu-portfolio" />
+
+        <meta property="og:title" content="Projects | Priyanshu Trivedi" />
+        <meta property="og:description" content="Explore my recent projects and see what I've been working on. As a front-end developer, I showcase my latest work and share details about each project." />
+        <meta property="og:image" content="https://priyanshutrivedi.vercel.app/assets/BlogverseSS-XO3-m2jh.png" />
+        <meta property="og:url" content="https://priyanshutrivedi.vercel.app/projects" />
+
+        <meta name="twitter:title" content="Projects | Priyanshu Trivedi" />
+        <meta name="twitter:description" content="Explore my recent projects and see what I've been working on. As a front-end developer, I showcase my latest work and share details about each project." />
+        <meta name="twitter:image" content="https://priyanshutrivedi.vercel.app/assets/BlogverseSS-XO3-m2jh.png" />
+
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://priyanshutrivedi.vercel.app/projects" />
+      </Helmet>
+
       <Container>
         <h2 className="text-4xl md:text-5xl text-orange-500 text-center mb-8">My Recent Works</h2>
         <div className="grid grid-cols-1 place-items-center items-start sm:place-items-start sm:grid-cols-2 lg:grid-cols-3 gap-8">
