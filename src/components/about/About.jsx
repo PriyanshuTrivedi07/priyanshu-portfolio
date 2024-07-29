@@ -52,6 +52,7 @@ const About = () => {
         <meta property="og:image" content="https://priyanshutrivedi.vercel.app/assets/about-CVj-9Jni.svg" />
         <meta property="og:url" content="https://priyanshutrivedi.vercel.app/about" />
 
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="About Me | Priyanshu Trivedi" />
         <meta name="twitter:description" content="Learn more about me, my skills, and view my GitHub contribution graph. I'm Priyanshu Trivedi, a front-end developer with expertise handson experience in React and modern web technologies." />
         <meta name="twitter:image" content="https://priyanshutrivedi.vercel.app/assets/about-CVj-9Jni.svg" />

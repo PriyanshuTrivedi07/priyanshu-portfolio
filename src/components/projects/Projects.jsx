@@ -63,6 +63,7 @@ const Projects = () => {
         <meta property="og:image" content="https://priyanshutrivedi.vercel.app/assets/BlogverseSS-XO3-m2jh.png" />
         <meta property="og:url" content="https://priyanshutrivedi.vercel.app/projects" />
 
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Projects | Priyanshu Trivedi" />
         <meta name="twitter:description" content="Explore my recent projects and see what I've been working on. As a front-end developer, I showcase my latest work and share details about each project." />
         <meta name="twitter:image" content="https://priyanshutrivedi.vercel.app/assets/BlogverseSS-XO3-m2jh.png" />
