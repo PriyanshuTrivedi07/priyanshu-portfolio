@@ -18,6 +18,7 @@ const HomePage = () => {
         <meta property="og:image" content="https://priyanshutrivedi.vercel.app/assets/home-CoPo3gKJ.svg" />
         <meta property="og:url" content="https://priyanshutrivedi.vercel.app" />
 
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Priyanshu Trivedi | Portfolio" />
         <meta name="twitter:description" content="Welcome to my portfolio website. I'm Priyanshu Trivedi, a aspiring front-end developer specializing in React and modern web technologies. Explore my projects and skills here." />
         <meta name="twitter:image" content="https://priyanshutrivedi.vercel.app/assets/home-CoPo3gKJ.svg" />

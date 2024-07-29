@@ -25,6 +25,7 @@ const Resume = () => {
                 <meta property="og:image" content="https://priyanshutrivedi.vercel.app/assets/about-CVj-9Jni.svg" />
                 <meta property="og:url" content="https://priyanshutrivedi.vercel.app/resume" />
 
+                <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="All Repositories | Priyanshu Trivedi" />
                 <meta name="twitter:description" content="View and download my resume. This page showcases my professional experience, skills, and education in a downloadable PDF format." />
                 <meta name="twitter:image" content="https://priyanshutrivedi.vercel.app/assets/about-CVj-9Jni.svg" />

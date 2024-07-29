@@ -48,6 +48,7 @@ function AllRepos() {
         <meta property="og:image" content="https://avatars.githubusercontent.com/u/118791702?v=4" />
         <meta property="og:url" content="https://priyanshutrivedi.vercel.app/all-repos" />
 
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="All Repositories | Priyanshu Trivedi" />
         <meta name="twitter:description" content="Browse all of my GitHub repositories and explore my work. Here you can find details about each project I've developed" />
         <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/118791702?v=4" />
